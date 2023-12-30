@@ -1,0 +1,22 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Welcome to my test app</title>
+        <style>
+            body {
+                text-align: center; /* Center align text */
+                font-size: 24px; /* Increase font size */
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Welcome to my app</h1>
+        <p><small>This project is created by Rana Ahmed</small></p>
+    </body>
+    </html>
